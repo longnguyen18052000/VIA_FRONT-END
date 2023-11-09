@@ -1,0 +1,18 @@
+.header {
+  font-family: Inter !important;
+}
+.banner {
+  background-image: url("../../asstes/images/banner.png");
+  background-repeat: no-repeat;
+  height: 418px;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: end;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

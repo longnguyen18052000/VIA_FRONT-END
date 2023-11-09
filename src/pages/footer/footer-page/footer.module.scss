@@ -1,0 +1,95 @@
+.containerFooter {
+  border: 1px solid var(--primary-700, #dca245);
+  background: var(--primary-800, #d29b42);
+}
+
+.informationFooter {
+  display: flex;
+  padding: 48px 80px;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+
+  :global {
+    .company {
+      color: #fff;
+      font-family: Inter;
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 18px;
+      letter-spacing: 1.04px;
+      text-transform: uppercase;
+    }
+    .information {
+      color: #fff;
+      font-family: Inter;
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 18px;
+      letter-spacing: 0.26px;
+    }
+    .contact-title {
+      color: #fff;
+      font-family: Inter;
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 18px;
+      letter-spacing: 1.04px;
+      text-transform: uppercase;
+    }
+    .contact-info {
+      color: var(--shades-white, #fff);
+      font-family: Inter;
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 18px;
+      letter-spacing: 0.26px;
+    }
+    .application {
+      color: #fff;
+      font-family: Inter;
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 18px;
+      letter-spacing: 1.04px;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.copyRightFooter {
+  display: flex;
+  width: 1440px;
+  padding: 16px 444px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  :global {
+    .security {
+      color: #fff;
+      font-family: Inter;
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 18px;
+      letter-spacing: 1.04px;
+      text-transform: uppercase;
+    }
+    .copy-right {
+      color: var(--shades-white, #fff);
+      font-family: Inter;
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 18px;
+      letter-spacing: 0.26px;
+    }
+  }
+}

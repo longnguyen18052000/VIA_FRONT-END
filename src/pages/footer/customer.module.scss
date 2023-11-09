@@ -1,0 +1,18 @@
+.customer {
+  display: flex;
+  padding: 48px 78px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background: var(--neutral-50, #f7f8f9);
+}
+
+.title {
+  color: var(--primary-700, #dca245);
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: -0.56px;
+}
